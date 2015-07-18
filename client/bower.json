@@ -1,0 +1,9 @@
+{
+  "name": "radio",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "datatables": "~1.10.7",
+    "bootstrap": "~3.3.5"
+  }
+}
