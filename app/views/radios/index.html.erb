@@ -1,0 +1,15 @@
+<h1>Listing radios</h1>
+ 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Source</th>
+  </tr>
+ 
+  <% @radios.each do |radio| %>
+    <tr>
+      <td><%= radio.name %></td>
+      <td><%= radio.source %></td>
+    </tr>
+  <% end %>
+</table>
