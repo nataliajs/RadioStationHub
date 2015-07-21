@@ -1,15 +1,13 @@
 <h1>Listing radios</h1>
- 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Source</th>
-  </tr>
- 
-  <% @radios.each do |radio| %>
+
+<table id="radios" class="display" data-source="<%= radios_url(format: "json") %>">
+  <thead>
     <tr>
-      <td><%= radio.name %></td>
-      <td><%= radio.source %></td>
+      <th>Name</th>
+      <th>Source</th>
     </tr>
-  <% end %>
+  </thead>
+  <tbody>
+  </tbody>
 </table>
+

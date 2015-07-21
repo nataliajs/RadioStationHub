@@ -3,8 +3,14 @@ class RadiosController < ApplicationController
   http_basic_authenticate_with name: "radio", password: "radio",
 except: [:index, :show]
 
+  #def index
+    #@radios = Radio.all
+  #end
   def index
-    @radios = Radio.all
+    respond_to do |format|
+      format.html
+      format.json { render json: RadiosDatatable.new(view_context) }
+    end
   end
 
   def show
