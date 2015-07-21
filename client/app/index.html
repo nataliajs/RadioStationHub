@@ -20,7 +20,7 @@
   </head>
   <body>
 
-    <!--HEADER-->
+    <!--HEADER
     <div class="container">
         <div class='col-xs-12 col-md-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8'>
           <div class="jumbotron">
@@ -51,14 +51,14 @@
                 	   		</tr>
                 	   	</tfoot>
                 	   	<tbody>
-                	   		<tr>
+                	   		<!--<tr>
                 	   			<td>Radio 3</td>
                 	   			<td><button type="button" class="btn btn-warning">Play</button></td>
                 	   			<td>
-                                    <button type="button" class="btn btn-info" id='edit'>Edit</button>
-                                    <button type="button" class="btn btn-info" id='delete'>Delete</button>
+                                    <button type="button" class="btn btn-info" id='editBtn'>Edit</button>
+                                    <button type="button" class="btn btn-info" id='deleteBtn'>Delete</button>
                                 </td>
-                	   		</tr>
+                	   		</tr>-->
                 	   	</tbody>
                 	   </table>
                    </div>
@@ -66,7 +66,7 @@
        </div>
         <div class='row'>
             <div class='col-xs-12 col-sm-8 col-md-offset-2 col-md-8 col-lg-8'>
-                <button type="button" class="btn btn-info" id='add'>Add Radio</button>
+                <button type="button" class="btn btn-info" id='addBtn'>Add Radio</button>
             </div>
         </div>       
    </div>
@@ -91,7 +91,7 @@
                        <input type="text" class="form-conntrol" id='addName' placeholder='Name'>
                    </div>
                    <div class='form-group'>
-                       <label for='url'>Url</label>
+                       <label for='url'>Source</label>
                        <input type="url" class="form-conntrol" id='addUrl' placeholder='Url'>
                    </div>
                    
@@ -123,11 +123,11 @@
                <form id='editForm'>
                    <div class='form-group'>
                        <label for='name'>Name</label>
-                       <input type="text" class="form-conntrol" id='editName' placeholder='Name'>
+                       <input type="text" class="form-conntrol" id='editName'>
                    </div>
                    <div class='form-group'>
-                       <label for='url'>Url</label>
-                       <input type="url" class="form-conntrol" id='editUrl' placeholder='Url'>
+                       <label for='url'>source</label>
+                       <input type="url" class="form-conntrol" id='editUrl'>
                    </div>
                    
                </form>
