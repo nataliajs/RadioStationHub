@@ -2,48 +2,174 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>radio</title>
+    <title>RadioStationHub</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/datatables/media/css/jquery.dataTables.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="styles/main.css">
 
     
     <!-- endbuild -->
   </head>
   <body>
-  	<div class="table-responsive">
-	   <table id='tabla' class='table-condensed table-hover'>
-	   	<thead>
-	   		<tr>
-		   		<th>Nombre</th>
-		   		<th>Reproducir</th>
-		   		<th>Editar/Borrar</th>
-	   		</tr>
-	   	</thead>
-	   	<tfoot>
-	   		<tr>
-		   		<th>Nombre</th>
-		   		<th>Reproducir</th>
-		   		<th>Editar/Borrar</th>
-	   		</tr>
-	   	</tfoot>
-	   	<tbody>
-	   		<tr>
-	   			<td>Radio 3</td>
-	   			<td>Reproducir</td>
-	   			<td>Editar</td>
-	   		</tr>
-	   	</tbody>
-	   </table>
+
+    <!--HEADER-->
+    <div class="container">
+        <div class='col-xs-12 col-md-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8'>
+          <div class="jumbotron">
+            <h2>onda</h2>
+            <h4>RadioStationHub</h4>      
+          </div>
+        </div>
+    </div>
+
+    <!--TABLE-->
+    <div class="container-fluid">
+        <div class='row'>
+            <div class='col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8'>
+                  	<div class="table-responsive">
+                	   <table id='tabla' class='table table-hover table-bordered'>
+                	   	<thead class="bg-info">
+                	   		<tr>
+                		   		<th>Name</th>
+                		   		<th>Play</th>
+                		   		<th>Edit/Delete</th>
+                	   		</tr>
+                	   	</thead>
+                	   	<tfoot>
+                	   		<tr>
+                		   		<th>Name</th>
+                		   		<th>Play</th>
+                		   		<th>Edit/Delete</th>
+                	   		</tr>
+                	   	</tfoot>
+                	   	<tbody>
+                	   		<tr>
+                	   			<td>Radio 3</td>
+                	   			<td><button type="button" class="btn btn-warning">Play</button></td>
+                	   			<td>
+                                    <button type="button" class="btn btn-info" id='edit'>Edit</button>
+                                    <button type="button" class="btn btn-info" id='delete'>Delete</button>
+                                </td>
+                	   		</tr>
+                	   	</tbody>
+                	   </table>
+                   </div>
+           </div>
+       </div>
+        <div class='row'>
+            <div class='col-xs-12 col-sm-8 col-md-offset-2 col-md-8 col-lg-8'>
+                <button type="button" class="btn btn-info" id='add'>Add Radio</button>
+            </div>
+        </div>       
    </div>
+
+
+
+<!-- Modal ADD RADIO STATION-->
+<div id="modalAdd" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add radio station</h4>
+            </div>
+
+            <div class="modal-body">
+               <!--FORM ADD RADIO-->
+               <form id='addForm'>
+                   <div class='form-group'>
+                       <label for='name'>Name</label>
+                       <input type="text" class="form-conntrol" id='addName' placeholder='Name'>
+                   </div>
+                   <div class='form-group'>
+                       <label for='url'>Url</label>
+                       <input type="url" class="form-conntrol" id='addUrl' placeholder='Url'>
+                   </div>
+                   
+               </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+            </div>
+        </div><!--modalcontent-->
+
+    </div><!--modaldialog-->
+</div><!--modalfade-->
+
+
+<!-- Modal EDIT RADIO STATION-->
+<div id="modalEdit" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Edit radio station</h4>
+            </div>
+
+            <div class="modal-body">
+               <!--FORM ADD RADIO-->
+               <form id='editForm'>
+                   <div class='form-group'>
+                       <label for='name'>Name</label>
+                       <input type="text" class="form-conntrol" id='editName' placeholder='Name'>
+                   </div>
+                   <div class='form-group'>
+                       <label for='url'>Url</label>
+                       <input type="url" class="form-conntrol" id='editUrl' placeholder='Url'>
+                   </div>
+                   
+               </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+            </div>
+        </div><!--modalcontent-->
+
+    </div><!--modaldialog-->
+</div><!--modalfade-->
+
+
+<!-- Modal DELETE RADIO STATION-->
+<div id="modalDelete" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Delete radio station</h4>
+            </div>
+
+            <div class="modal-body">
+               <!--FORM ADD RADIO-->
+               <form id='addForm'>
+                   <p>Esta estacion se va a borrar, ¿estas seguro?
+               </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Delete</button>
+            </div>
+        </div><!--modalcontent-->
+
+    </div><!--modaldialog-->
+</div><!--modalfade-->
+
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
