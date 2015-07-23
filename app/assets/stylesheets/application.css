@@ -10,9 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ * require_tree .
  *= require_self
- *= require jquery.ui.core
- *= require jquery.ui.theme
- *= require dataTables/src/demo_table_jui
+ * require bootstrap/dist/css/bootstrap
+ * require main
+ * require datatables/media/css/jquery.dataTables
+ * require datatables/media/css/jquery.dataTables_themeroller
  */
