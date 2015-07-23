@@ -5,7 +5,6 @@ $(document).ready(function(){
 		"paging":false,
 		"processing":true,
 		"serverSide":false,
-		//"ajax":"scripts/jsonRadio.txt",
 		"ajax":"http://localhost:3000/radios",
 		"columns":[
 			{"data":"name"},
@@ -16,7 +15,7 @@ $(document).ready(function(){
 				}
 			},
 			{
-				"data":"source",
+				"data":"id",
 				"render":function(data){
 					return '<button type="button" class="btn btn-info" id="editBtn">Edit</button><button type="button" class="btn btn-info" id="deleteBtn">Delete</button>';
 				}
@@ -39,12 +38,39 @@ $(document).ready(function(){
 
 		var tr=$(this).parents('tr');
 		var row=datatable.row(tr).data();
+		var id=row.id;
 		var name=row.name;
 		var url=row.source;
 		document.getElementById('editForm').reset();
 		$('#modalEdit').modal('show');
 		$('#editName').val(name);
 		$('#editUrl').val(url);
+		$('#modalEdit').on('click','#addSubmit',function(){
+			console.log('promise');
+			var editName=$('#editName').val();
+			var editSource=$('#editUrl').val();
+			var promise=$.ajax({
+				type:'POST',
+				dataType:'JSON',
+				url:'culo',
+				data:{
+					id:id,
+					name:editName,
+					source:editSource
+				}
+			});
+			promise.done(function(){
+  					$.growl.notice({ message: "The station has been edited!" });
+  					console.log('promiseDone');
+				});
+			promise.fail(function(){
+					$.growl.error({ message: "The station has not been edited." });
+					console.log('promiseFail');
+				});
+			promise.always(function(){
+					datatable.draw();
+				});
+		});
 	});
 
 	//show modalDelete
@@ -52,6 +78,11 @@ $(document).ready(function(){
 		e.preventDefault();
 		
 		$('#modalDelete').modal('show');
+		var tr=$(this).parents('tr');
+		var row=datatable.row(tr).data();
+		var idDelete=row.id;
+		var nameDelete=row.name;
 
+		
 	});
 });
