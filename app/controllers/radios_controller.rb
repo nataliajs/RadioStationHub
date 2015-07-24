@@ -1,7 +1,6 @@
 class RadiosController < ApplicationController
   
-  http_basic_authenticate_with name: "radio", password: "radio",
-except: [:index, :show]
+#  http_basic_authenticate_with name: "radio", password: "radio", except: [:index, :show]
 
   #def index
     #@radios = Radio.all
@@ -35,7 +34,10 @@ except: [:index, :show]
     @radio = Radio.find(params[:id])
  
     if @radio.update(radio_params)
-      redirect_to @radio
+      respond_to do |format|
+        format.html { redirect_to @radio  }
+        format.json { render json: @radio }
+      end
     else
       render 'edit'
     end

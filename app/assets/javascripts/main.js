@@ -54,14 +54,15 @@ $(document).ready(function(){
 			console.log('promise');
 			var editName=$('#editName').val();
 			var editSource=$('#editUrl').val();
+			var urlPatch='http://localhost:3000/radios/' + id;
 			var promise=$.ajax({
-				type:'POST',
-				dataType:'JSON',
-				url:'culo',
+				//type:'POST',
+				type:'PATCH',
+				dataType:"json",
+				url: urlPatch,
 				data:{
-					id:id,
-					name:editName,
-					source:editSource
+					"radio[name]": editName,
+					"radio[source]": editSource
 				}
 			});
 			promise.done(function(){
@@ -74,6 +75,7 @@ $(document).ready(function(){
 				});
 			promise.always(function(){
 					datatable.draw();
+					console.log('promiseAlways');
 				});
 		});
 	});

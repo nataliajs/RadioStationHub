@@ -19,6 +19,7 @@ private
   def data
     radios.map do |radio|
       {
+        :id => radio.id,
         :name => radio.name,
         :source => radio.source
       }

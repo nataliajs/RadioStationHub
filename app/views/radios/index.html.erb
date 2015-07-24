@@ -6,14 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- <link rel="stylesheet" href="../../assets/bower_components/datatables/media/css/jquery.dataTables.css" />-->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="styles/main.css"> -->
+
     <%= stylesheet_link_tag "datatables/media/css/jquery.dataTables" %>
     <%= stylesheet_link_tag "bootstrap/dist/css/bootstrap" %>
     <%= stylesheet_link_tag "growl/jquery.growl.css" %>
@@ -164,23 +157,11 @@
     </div><!--modaldialog-->
 </div><!--modalfade-->
 
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- <script src="../../assets/bower_components/jquery/dist/jquery.js"></script>
-    <script src="datatables/media/js/jquery.dataTables.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script> -->
-    <!-- endbower -->
-    <!-- endbuild -->
     <%= javascript_include_tag "jquery/dist/jquery" %>
     <%= javascript_include_tag "datatables/media/js/jquery.dataTables" %>
     <%= javascript_include_tag "bootstrap/dist/js/bootstrap" %>
-    <%= javascript_include_tag "growl/jquery.growl.js" %>
+    <%= javascript_include_tag "growl/jquery.growl" %>
 
-  
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <!-- <script src="../../assets/javascripts/main.js"></script> -->
-        <!-- endbuild -->
-        <%= javascript_include_tag "main" %>
+    <%= javascript_include_tag "main" %>
 </body>
 </html>
