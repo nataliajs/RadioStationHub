@@ -1,6 +1,6 @@
 
 
-body {
+/*body {
   background: #fafafa;
   
   color: #333;
@@ -13,7 +13,7 @@ radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#282828;
 background-size:16px 16px;*/
-}
+/*}
 
 .hero-unit {
   margin: 50px auto 0 auto;
@@ -41,25 +41,48 @@ background-size:16px 16px;*/
 /*.jumbotron,.table-responsive{
   background-color: #EDEDED;
 }*/
+
+/*--------------TABLE---------------*/
+
 .table{
   
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   
 }
+.table > tbody > tr > td{
+  vertical-align: middle;
+    background-color: #376191;
+  color:#111435;
+}
+.table-hover > tbody > tr:hover{
+  background-color: #518EA1;
+}
+
 thead,tfoot{
   background-color: #182047;
   color:#E8E8B2;
 }
-.odd{
-  background-color: #525E80;
-}
+
+/*--------RESPONSIVE BACKGROUND---------------*/
+
 body{
-  background: url('/assets/background-big.jpg') no-repeat   center center fixed;
+  background: no-repeat   center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-color: #486180;
+}
+
+
+@media (max-width:991px){
+  body{background: url('/assets/background-992.jpg');}
+}
+@media (min-width:992px){
+  body{background: url('/assets/background-1200.jpg');}
+}
+@media(min-width:1200px){
+  body{background: url('/assets/background-1920.jpg');}
 }
 body> .container-fluid{
   padding-top: 60px;

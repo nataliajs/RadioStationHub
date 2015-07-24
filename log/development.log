@@ -3463,3 +3463,3144 @@ Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.7ms)
 
 
 Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:53:46 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:53:46 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:53:46 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:53:46 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/assets/main.self-17392b8ace9d78008c2eff17b88b4bd15a57dbe827ca91df4162f4458716d267.css?body=1" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/radios?_=1437753227270" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437753227270"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:53:47 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:54:16 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (126.4ms)
+Completed 200 OK in 144ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:54:16 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:54:16 +0200
+
+
+Started GET "/assets/main.self-23eb9d42383b350a163bfba84a75b54efc58a92a69b59a685cfc0536704d341f.css?body=1" for 127.0.0.1 at 2015-07-24 17:54:16 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:54:16 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:54:16 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:54:16 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:54:16 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:54:17 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:54:17 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:54:17 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:54:17 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:54:17 +0200
+
+
+Started GET "/radios?_=1437753257225" for 127.0.0.1 at 2015-07-24 17:54:17 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437753257225"}
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:54:17 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (61.8ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/main.self-2c3cca12485fa39aa5986f9ff402a99cab56a03a0b67fc43776a3d94f913c7a3.css?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:55:01 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:55:02 +0200
+
+
+Started GET "/radios?_=1437753302077" for 127.0.0.1 at 2015-07-24 17:55:02 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437753302077"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:55:02 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (63.9ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/main.self-3c4092059e49d4ec1a78dfded6864e35252fb768f0ff78df3adb0aaaf3475e98.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:29 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:56:30 +0200
+
+
+Started GET "/radios?_=1437753389996" for 127.0.0.1 at 2015-07-24 17:56:30 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437753389996"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:56:30 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (121.4ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/main.self-f5c82878ea667b2454489da4b0f7b6f5a1dd47550d6e2383c01b590ebbaf59c1.css?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/radios?_=1437753405607" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437753405607"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:56:45 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:01:57 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (66.1ms)
+Completed 200 OK in 84ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/main.self-317e12120ae87539cc429d3175bc85eff04de1da7c0dda3c9ae6feb587782a4f.css?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+
+
+Started GET "/radios?_=1437753718688" for 127.0.0.1 at 2015-07-24 18:01:58 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437753718688"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:01:59 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:08:55 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (62.2ms)
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:08:55 +0200
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/main.self-4aeb9f793e0eb5076d32288b095bd81591932bbba52d0671abd4afdbc7626fef.css?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/radios?_=1437754136319" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437754136319"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:08:56 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/main.self-17a166280f844c3195cbcea595bc6a7a37a0415dc7fe58b27584316f0dcb18de.css?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+
+
+Started GET "/radios?_=1437754160676" for 127.0.0.1 at 2015-07-24 18:09:20 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437754160676"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:09:21 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:49:31 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (59.5ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/main.self-76b8b23227cb86d9dc8b018318b39a5a86a3b5f27a543b95939e135eb8133b4e.css?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/radios?_=1437756572205" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437756572205"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.5ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:49:32 +0200
+
+
+Started GET "/assets/background-1200.jpg" for 127.0.0.1 at 2015-07-24 18:49:35 +0200
+
+
+Started GET "/assets/background-992.jpg" for 127.0.0.1 at 2015-07-24 18:49:39 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 82ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/main.self-e2e4e9ae0cc8652671b2c9acb0c4025d5788582df7902a05a1bfad7aa3736208.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/background-992.jpg" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/radios?_=1437756680562" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437756680562"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:51:20 +0200
+
+
+Started GET "/assets/background-1200.jpg" for 127.0.0.1 at 2015-07-24 18:51:26 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:51:27 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/main.self-4c38865f70d043379d6d0d782984c4bf9781e749c0f197b58db1b06428378c51.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:42 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:51:43 +0200
+
+
+Started GET "/radios?_=1437756702862" for 127.0.0.1 at 2015-07-24 18:51:43 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437756702862"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:51:43 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:51:52 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/main.self-e2e4e9ae0cc8652671b2c9acb0c4025d5788582df7902a05a1bfad7aa3736208.css?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/background-992.jpg" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/radios?_=1437756713192" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437756713192"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:51:53 +0200
+
+
+Started GET "/assets/background-1200.jpg" for 127.0.0.1 at 2015-07-24 18:51:56 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:51:57 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (51.4ms)
+Completed 200 OK in 67ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/main.self-e2e4e9ae0cc8652671b2c9acb0c4025d5788582df7902a05a1bfad7aa3736208.css?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:52:05 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:52:06 +0200
+
+
+Started GET "/radios?_=1437756725751" for 127.0.0.1 at 2015-07-24 18:52:06 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437756725751"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:52:06 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (51.4ms)
+Completed 200 OK in 69ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/main.self-e2e4e9ae0cc8652671b2c9acb0c4025d5788582df7902a05a1bfad7aa3736208.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/radios?_=1437756808479" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437756808479"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:53:28 +0200
+
+
+Started GET "/assets/background-1200.jpg" for 127.0.0.1 at 2015-07-24 18:53:33 +0200
+
+
+Started GET "/assets/background-992.jpg" for 127.0.0.1 at 2015-07-24 18:53:33 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (48.6ms)
+Completed 200 OK in 66ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/main.self-e2e4e9ae0cc8652671b2c9acb0c4025d5788582df7902a05a1bfad7aa3736208.css?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/radios?_=1437756830448" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437756830448"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:53:50 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (117.5ms)
+Completed 200 OK in 135ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/main.self-70068f82705853bbd604e6ac82e644e4de028ba0f952be609037741081abf227.css?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/radios?_=1437756932439" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437756932439"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:55:32 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:57:17 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (120.0ms)
+Completed 200 OK in 138ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/main.self-18b6cc4b41f89e6368fc9898a40dba193a352f39c04c86b9ae4b00f62889730d.css?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/radios?_=1437757038229" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757038229"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.6ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:57:18 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:58:45 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (63.1ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/main.self-9e837f20faa4557e28a781da80334d62427b854a7fd08c457e2efabc8ab665c2.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/radios?_=1437757126221" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757126221"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:58:46 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 18:58:55 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (59.3ms)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/main.self-2c042b30ac35000d826cb75ab75487b7bbb8031678e065bc0a557e1a259176e8.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/radios?_=1437757136293" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757136293"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.5ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 18:58:56 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:00:27 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (55.1ms)
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/main.self-2c042b30ac35000d826cb75ab75487b7bbb8031678e065bc0a557e1a259176e8.css?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/radios?_=1437757228259" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757228259"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (1.1ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:00:28 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (59.1ms)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/main.self-c78caad5068dcfa9a80d5449380525939360b0f6851d3aa6a80bf43d62aab99b.css?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:02:16 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:02:17 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:02:17 +0200
+
+
+Started GET "/radios?_=1437757337193" for 127.0.0.1 at 2015-07-24 19:02:17 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757337193"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:02:17 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (125.1ms)
+Completed 200 OK in 143ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/main.self-67b39ecd4c9baf2da6dd694a3f07a2febc3d531c22df879bc7854cbb0b1f78dd.css?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:04:31 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:04:32 +0200
+
+
+Started GET "/radios?_=1437757472037" for 127.0.0.1 at 2015-07-24 19:04:32 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757472037"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:04:32 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (121.4ms)
+Completed 200 OK in 140ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/main.self-3072a18bed948695fe58db733868b57407293ef24d629938ed5749466726743b.css?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/radios?_=1437757614622" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757614622"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.5ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:06:54 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (64.1ms)
+Completed 200 OK in 82ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/main.self-c21af74766c54a4fef39affd39d68b0e71dc924313c07899d8a78bc3220d61b1.css?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/radios?_=1437757654534" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757654534"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:07:34 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (63.9ms)
+Completed 200 OK in 81ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+
+
+Started GET "/assets/main.self-29316840816c836fd6e4955c702360df3c33efdfffe28311660f54bac9d756cb.css?body=1" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:09:12 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:09:13 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:09:13 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:09:13 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:09:13 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:09:13 +0200
+
+
+Started GET "/radios?_=1437757753191" for 127.0.0.1 at 2015-07-24 19:09:13 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437757753191"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:09:13 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:15:02 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (105.8ms)
+Completed 200 OK in 184ms (Views: 183.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/main.self-29316840816c836fd6e4955c702360df3c33efdfffe28311660f54bac9d756cb.css?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/radios?_=1437758103468" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437758103468"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:15:03 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (50.3ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/main.self-29316840816c836fd6e4955c702360df3c33efdfffe28311660f54bac9d756cb.css?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:16:05 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:16:06 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:16:06 +0200
+
+
+Started GET "/radios?_=1437758166061" for 127.0.0.1 at 2015-07-24 19:16:06 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437758166061"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:16:06 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:17:28 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 83ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/main.self-13a6fd9e40b754f39fb8e8aa9ebfd48e046237f24a540fdc9d76d15618950363.css?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/radios?_=1437758249479" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437758249479"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.5ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:17:29 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (57.9ms)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/main.self-a932e5deb4ae1bc50a4b8beddf20e45b53bda44c7e0c24f4e28f3edc277f261b.css?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/radios?_=1437759501491" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437759501491"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.6ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:38:21 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (60.1ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/main.self-70da696b13feff3a75ecba4d43af761701fb2eba2ad17ec4f4ac6a09097eb211.css?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/radios?_=1437759588840" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437759588840"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.5ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:39:48 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (119.6ms)
+Completed 200 OK in 139ms (Views: 138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/main.self-d32d160db5a1c9da9ff9a2c996ff5ea74f8797774973b858ff7878d18b3e000f.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:40:10 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:40:11 +0200
+
+
+Started GET "/radios?_=1437759610921" for 127.0.0.1 at 2015-07-24 19:40:11 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437759610921"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:40:11 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (62.8ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/main.self-e532903eae6908be8549cc4d02de3995456c05bd05a75d944b00ec53ada44530.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/radios?_=1437759630661" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437759630661"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:40:30 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/main.self-e532903eae6908be8549cc4d02de3995456c05bd05a75d944b00ec53ada44530.css?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/radios?_=1437759642255" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437759642255"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.5ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:40:42 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (60.2ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/main.self-458ccd78bb02ddb4b51ad5f2698517f23640135722b3722fe71daf94b03f7618.css?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/radios?_=1437759756582" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437759756582"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:42:36 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:43:22 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (131.1ms)
+Completed 200 OK in 151ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/main.self-650a891502abccb0860cff4af4e4742eb8daed4cb55df14fbb88b79030db0098.css?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/radios?_=1437759803462" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437759803462"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:43:23 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (48.3ms)
+Completed 200 OK in 65ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/main.self-650a891502abccb0860cff4af4e4742eb8daed4cb55df14fbb88b79030db0098.css?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:46:54 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:46:55 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:46:55 +0200
+
+
+Started GET "/radios?_=1437760015113" for 127.0.0.1 at 2015-07-24 19:46:55 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760015113"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:46:55 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:47:27 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (58.8ms)
+Completed 200 OK in 77ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/main.self-650a891502abccb0860cff4af4e4742eb8daed4cb55df14fbb88b79030db0098.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/radios?_=1437760048555" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760048555"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:47:28 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 82ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/main.self-8c85cf5cb5286d8745e0ab4d957bbad974fd9b61535ac9b5e2e59146fa40a5b3.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:47:58 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:47:59 +0200
+
+
+Started GET "/radios?_=1437760078928" for 127.0.0.1 at 2015-07-24 19:47:59 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760078928"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:47:59 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (120.2ms)
+Completed 200 OK in 137ms (Views: 136.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/main.self-814c903e90e5bb18aca031222ac2105ab56297862aa961a6f055121e84d6bcab.css?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:48:46 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:48:47 +0200
+
+
+Started GET "/radios?_=1437760127079" for 127.0.0.1 at 2015-07-24 19:48:47 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760127079"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:48:47 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_desc.png" for 127.0.0.1 at 2015-07-24 19:49:07 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (61.4ms)
+Completed 200 OK in 78ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/main.self-814c903e90e5bb18aca031222ac2105ab56297862aa961a6f055121e84d6bcab.css?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:55:13 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:55:14 +0200
+
+
+Started GET "/radios?_=1437760513890" for 127.0.0.1 at 2015-07-24 19:55:14 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760513890"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:55:14 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (62.2ms)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/main.self-43fefa200cf68919f7edb76ac6e8da2de878ade605b5a8166d17968a5c40c72a.css?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:57:25 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:57:26 +0200
+
+
+Started GET "/radios?_=1437760646021" for 127.0.0.1 at 2015-07-24 19:57:26 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760646021"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:57:26 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (66.6ms)
+Completed 200 OK in 84ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/main.self-eb4047948cda47f8ca335b2e5362dbc7413ee59fcea3177da528df0aef791b89.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/radios?_=1437760740726" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760740726"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:59:00 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (61.8ms)
+Completed 200 OK in 79ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/main.self-5fde62a86c427a6db53cd635110cff32a6e433bc50a942738b0702fcd843c6ea.css?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 19:59:12 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 19:59:13 +0200
+
+
+Started GET "/radios?_=1437760753030" for 127.0.0.1 at 2015-07-24 19:59:13 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760753030"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 19:59:13 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (117.5ms)
+Completed 200 OK in 137ms (Views: 135.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/main.self-eb4047948cda47f8ca335b2e5362dbc7413ee59fcea3177da528df0aef791b89.css?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:00:28 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:00:29 +0200
+
+
+Started GET "/radios?_=1437760828916" for 127.0.0.1 at 2015-07-24 20:00:29 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760828916"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:00:29 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (62.4ms)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/main.self-305fc1ff2144ad83dc1fe33f0f576fd35a32d5bc38187f36fa610cf22a706836.css?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:02:20 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:02:21 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:02:21 +0200
+
+
+Started GET "/radios?_=1437760941158" for 127.0.0.1 at 2015-07-24 20:02:21 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437760941158"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:02:21 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 80ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/main.self-005682b34c67a94eb5b8705fc488374617e489c931c988ca0347f281fb16d7f7.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:06:15 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:06:16 +0200
+
+
+Started GET "/radios?_=1437761176037" for 127.0.0.1 at 2015-07-24 20:06:16 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761176037"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:06:16 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (63.7ms)
+Completed 200 OK in 82ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/main.self-e5e6963cac378cf390a29fb5f2ef98984cad2ae250dcc0118698a1cc7a62d760.css?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:06:38 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:06:39 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:06:39 +0200
+
+
+Started GET "/radios?_=1437761199236" for 127.0.0.1 at 2015-07-24 20:06:39 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761199236"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:06:39 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (141.6ms)
+Completed 200 OK in 167ms (Views: 167.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/main.self-a96c265de2f5823d78b0c905e982df403a8c40dcd565db402bfef9cf5abf9162.css?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:07:02 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:07:03 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:07:03 +0200
+
+
+Started GET "/radios?_=1437761222989" for 127.0.0.1 at 2015-07-24 20:07:03 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761222989"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:07:03 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (62.7ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/main.self-ccd95be7c7012543b6cc6271294dc054a60683fe22938b358cb0c061ec9fe6d6.css?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:10:29 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:10:30 +0200
+
+
+Started GET "/radios?_=1437761429872" for 127.0.0.1 at 2015-07-24 20:10:30 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761429872"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:10:30 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/main.self-29e9884311595a1e219bc65467f54bd35d078edc4816f0ec42bd945696785057.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:11:30 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:11:31 +0200
+
+
+Started GET "/radios?_=1437761491058" for 127.0.0.1 at 2015-07-24 20:11:31 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761491058"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:11:31 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:11:49 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (59.1ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/main.self-6c924558e92c930e7736bb7371bbf23d079b75b227558c5b30ce040a0274f0dc.css?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/radios?_=1437761510406" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761510406"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:11:50 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:14:21 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (130.8ms)
+Completed 200 OK in 149ms (Views: 148.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/main.self-a0a16b4d6fa09af831d55095392de628ebfaaa9057fef9c9818ee5379634b38b.css?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/radios?_=1437761662389" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761662389"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:14:22 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:16:48 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 81ms (Views: 80.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:16:48 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:16:48 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:16:48 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:16:48 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:16:48 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/assets/main.self-312948d3ef5ef5be85ba5ad66b0c72fb4cbd95962d527eb0001b0a0495a1274a.css?body=1" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/radios?_=1437761809290" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761809290"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:16:49 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:17:05 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (58.6ms)
+Completed 200 OK in 77ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/main.self-70b048d43d9eac4e4b91c520277d2227100417d6484295415d7a8ac5248ec779.css?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/radios?_=1437761826527" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437761826527"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:17:06 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (60.2ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-7180b2ec5aee4b03539b0712680b1e0aca56f01c94b45e3b7350713bed46cb7c.css?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/main.self-74e6b1501e472f8711573dfc203666379231279587840da4ba51ed385316e621.css?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/main.self-399efaa186439e6c7b084151002e4ce7f1bcf15df94c16590f23b22bb4d15804.js?body=1" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/background-1920.jpg" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+
+
+Started GET "/radios?_=1437762005754" for 127.0.0.1 at 2015-07-24 20:20:05 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437762005754"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 20:20:06 +0200

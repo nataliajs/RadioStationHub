@@ -5,6 +5,11 @@ $(document).ready(function(){
 		"paging":false,
 		"processing":true,
 		"serverSide":false,
+		"columnDefs":[{
+			"targets":[1,2],
+			"orderable":false,
+			"searchable":false
+		}],
 		"ajax":"http://localhost:3000/radios",
 		"columns":[
 			{"data":"name"},
