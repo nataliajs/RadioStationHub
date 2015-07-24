@@ -54,9 +54,14 @@ thead,tfoot{
   background-color: #525E80;
 }
 body{
-  background: url('images/background-big.jpg') no-repeat   center center fixed;
+  background: url('/assets/background-big.jpg') no-repeat   center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #486180;
+}
+body> .container-fluid{
+  padding-top: 60px;
+  padding-bottom: 200px;
 }

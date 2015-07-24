@@ -1488,3 +1488,1978 @@ Started GET "/" for 127.0.0.1 at 2015-07-20 18:49:49 +0200
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (20.5ms)
 Completed 200 OK in 475ms (Views: 445.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 21:00:51 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 384ms (Views: 383.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-23 21:00:52 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-23 21:00:52 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-23 21:01:42 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (827.3ms)
+Completed 200 OK in 911ms (Views: 910.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-23 21:01:43 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-23 21:01:43 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+
+
+Started GET "/assets/main.self-fdeadf9f5fc3b3f9b730700bcdcc18cf1531d8397621519498d4140a4043d1bf.css?body=1" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+
+
+Started GET "/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (73.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (121.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (37.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+
+
+Started GET "/radios?_=1437678104100" for 127.0.0.1 at 2015-07-23 21:01:44 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437678104100"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 85ms (Views: 79.6ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/culo" for 127.0.0.1 at 2015-07-23 21:01:56 +0200
+
+ActionController::RoutingError (No route matches [POST] "/culo"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (39.6ms)
+
+
+Started POST "/culo" for 127.0.0.1 at 2015-07-23 21:02:08 +0200
+
+ActionController::RoutingError (No route matches [POST] "/culo"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.3ms)
+
+
+Started POST "/culo" for 127.0.0.1 at 2015-07-23 21:02:08 +0200
+
+ActionController::RoutingError (No route matches [POST] "/culo"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.1ms)
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 11:37:21 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (1776.4ms)
+Completed 200 OK in 2383ms (Views: 2382.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 11:37:27 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 11:37:27 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 11:37:27 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 11:37:27 +0200
+
+
+Started GET "/assets/main.self-fdeadf9f5fc3b3f9b730700bcdcc18cf1531d8397621519498d4140a4043d1bf.css?body=1" for 127.0.0.1 at 2015-07-24 11:37:27 +0200
+
+
+Started GET "/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 11:37:27 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (157.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (301.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (92.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (189.7ms)
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 11:37:28 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 11:37:28 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 11:37:28 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 11:37:28 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 11:37:28 +0200
+
+
+Started GET "/radios?_=1437730648377" for 127.0.0.1 at 2015-07-24 11:37:28 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437730648377"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 76ms (Views: 38.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 11:37:28 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 11:43:59 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (435.7ms)
+Completed 200 OK in 571ms (Views: 570.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/main.self-fdeadf9f5fc3b3f9b730700bcdcc18cf1531d8397621519498d4140a4043d1bf.css?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+
+Started GET "/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 11:44:00 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (148.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.4ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 11:44:01 +0200
+
+
+Started GET "/radios?_=1437731040853" for 127.0.0.1 at 2015-07-24 11:44:01 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437731040853"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.5ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 21ms (Views: 16.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 11:44:01 +0200
+
+
+Started POST "/culo" for 127.0.0.1 at 2015-07-24 11:44:13 +0200
+
+ActionController::RoutingError (No route matches [POST] "/culo"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (70.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (89.5ms)
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 11:48:16 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (61.1ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/main.self-084a226813376c2eede5668f89f8c1253472488d2a417777e89408905fcc5168.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.1ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/radios?_=1437731297416" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437731297416"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 11:48:17 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 11:48:40 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (377.1ms)
+Completed 200 OK in 461ms (Views: 460.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/main.self-084a226813376c2eede5668f89f8c1253472488d2a417777e89408905fcc5168.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (69.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (131.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (37.0ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/radios?_=1437731322501" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437731322501"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 11:48:42 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 11:49:23 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (112.9ms)
+Completed 200 OK in 130ms (Views: 129.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/main.self-4eb52dca35ed1201f5a72aafa873f0dd434d5c36148eac535f44219918a958b6.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/assets/app/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (23.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (43.1ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/radios?_=1437731364535" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437731364535"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 11:49:24 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 83ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/main.self-fcd6efff51510984134a14abfa55e504deadce7a7fe8eecd4a06ba7074dc4b29.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+
+Started GET "/assets/radios/app/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 11:49:46 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/radios/app/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.0ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 11:49:47 +0200
+
+
+Started GET "/radios?_=1437731386935" for 127.0.0.1 at 2015-07-24 11:49:47 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437731386935"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 11:49:47 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (49.5ms)
+Completed 200 OK in 68ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/main.self-fcd6efff51510984134a14abfa55e504deadce7a7fe8eecd4a06ba7074dc4b29.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+
+Started GET "/assets/radios/app/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 11:50:13 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/radios/app/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (71.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (44.9ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 11:50:14 +0200
+
+
+Started GET "/radios?_=1437731413963" for 127.0.0.1 at 2015-07-24 11:50:14 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437731413963"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 11:50:14 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (51.6ms)
+Completed 200 OK in 69ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/main.self-fdeadf9f5fc3b3f9b730700bcdcc18cf1531d8397621519498d4140a4043d1bf.css?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+
+Started GET "/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 11:50:39 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 11:50:40 +0200
+
+
+Started GET "/radios?_=1437731440108" for 127.0.0.1 at 2015-07-24 11:50:40 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437731440108"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 11:50:40 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 12:00:42 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (67.9ms)
+Completed 200 OK in 85ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 12:00:42 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 12:00:42 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 12:00:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 12:00:42 +0200
+
+
+Started GET "/assets/main.self-4eb52dca35ed1201f5a72aafa873f0dd434d5c36148eac535f44219918a958b6.css?body=1" for 127.0.0.1 at 2015-07-24 12:00:42 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+
+Started GET "/assets/app/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (40.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+
+
+Started GET "/radios?_=1437732043272" for 127.0.0.1 at 2015-07-24 12:00:43 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437732043272"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/main.self-cf28c9ba8b2035f3b60a383e4da02c9ccf89a2a3ddf04484e668028bdc107540.css?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+
+Started GET "/assets/public/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 12:01:54 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/public/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 12:01:55 +0200
+
+
+Started GET "/radios?_=1437732115005" for 127.0.0.1 at 2015-07-24 12:01:55 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437732115005"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 12:01:55 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (48.1ms)
+Completed 200 OK in 65ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/main.self-cf28c9ba8b2035f3b60a383e4da02c9ccf89a2a3ddf04484e668028bdc107540.css?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/assets/public/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/public/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (40.2ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/radios?_=1437732164635" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437732164635"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 12:02:44 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 12:04:41 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (127.8ms)
+Completed 200 OK in 144ms (Views: 143.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 12:04:41 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/main.self-6b2b81f02140bc0ca49c8925bf4e5f223d9723048eed79c470911da25022aeb2.css?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (21.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (44.4ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/radios?_=1437732282295" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437732282295"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 12:04:42 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 12:05:10 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (117.8ms)
+Completed 200 OK in 135ms (Views: 134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/main.self-b0df419afd2bb7ac2d52048c187fc8b3c2825304fe411ea112efb898e3617a29.css?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/assets/images/background-big.jpg" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/background-big.jpg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (23.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (45.3ms)
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/radios?_=1437732311358" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437732311358"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 12:05:11 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (120.8ms)
+Completed 200 OK in 138ms (Views: 137.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/main.self-84b0d9e8114ea9d808465e69d86009eb316d8dd04b357929be425df74bf6341f.css?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 12:06:01 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 12:06:02 +0200
+
+
+Started GET "/radios?_=1437732362055" for 127.0.0.1 at 2015-07-24 12:06:02 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437732362055"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.3ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 12:06:02 +0200
+
+
+Started POST "/culo" for 127.0.0.1 at 2015-07-24 12:06:27 +0200
+
+ActionController::RoutingError (No route matches [POST] "/culo"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (42.6ms)
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:13:43 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (52.3ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/main.self-84b0d9e8114ea9d808465e69d86009eb316d8dd04b357929be425df74bf6341f.css?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/radios?_=1437750824414" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437750824414"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:13:44 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (67.2ms)
+Completed 200 OK in 84ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/main.self-a752671476070697759a006db5bcce312c06eb6a56db2995fbfa2ddc30d77c60.css?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:15:51 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 17:15:52 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:15:52 +0200
+
+
+Started GET "/radios?_=1437750952106" for 127.0.0.1 at 2015-07-24 17:15:52 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437750952106"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:15:52 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:16:16 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (65.9ms)
+Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/main.self-252e3cad5e2e7e76bf50aebd1f0184484f779a960bf050916857360557b4d136.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/radios?_=1437750977387" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437750977387"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.4ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:16:17 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:16:49 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 80ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/main.self-0b9752f4a27fe8e33a5e86245659dad9e31766f06eb261b8791f627db32ca430.css?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/radios?_=1437751010351" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437751010351"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.4ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:16:50 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (60.1ms)
+Completed 200 OK in 77ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/main.self-f92c80871a1d67f5d2e977190160a288dfb141f39ad883f4f692bf43645d23f1.css?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 17:17:18 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:17:19 +0200
+
+
+Started GET "/radios?_=1437751039033" for 127.0.0.1 at 2015-07-24 17:17:19 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437751039033"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mRadio Load (0.3ms)[0m  [1mSELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0[0m
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:17:19 +0200
+
+
+Started GET "/radios" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+Processing by RadiosController#index as HTML
+  Rendered radios/index.html.erb within layouts/application (62.4ms)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eeb541a9d433a6da6a735f9909778473be8f064fe7ec9f21e0a57781f9932564.css?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/application.self-39dd2eda56c78cf19cc1f2120c955be0ff31fbdaec7b1db3d7348e76f42a4237.js?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/datatables/media/css/jquery.dataTables.self-3ffa067b875a4d81082fdba8f63e20a694c380fd979d2900988d9a108361acde.css?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/main.self-45fe793c97a95f3cdc3a2cccb0e182c295faf2c85984b3dcf3dda730eba2ae6a.css?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-c68c406b70db1115478355392ee8e55e46903052ef2acc9b83a09aa57ea2c0d1.css?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-c1e8f2d7635bfbf2c29e4413a9e74d957facdfdffc58fe5eeb61b93a3f7e712a.css?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/jquery/dist/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/datatables/media/js/jquery.dataTables.self-a9908e5a65de4eeb0522babd326c527638c2ff12f0b4c3f61deb76b1dc27e25d.js?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/growl/jquery.growl.self-1b3881367482c90e197775c6ec90bcf236ab3cd68d33347b1a3f45d51db80b46.js?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/main.self-a3fae12e07ae11df8728aca4a2b2f4e0a6db8da445f508d26af998712d2fb974.js?body=1" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/background-big.jpg" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/assets/datatables/media/images/sort_both.png" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+
+
+Started GET "/radios?_=1437751350593" for 127.0.0.1 at 2015-07-24 17:22:30 +0200
+Processing by RadiosController#index as JSON
+  Parameters: {"_"=>"1437751350593"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "radios"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "radios"[0m
+  [1m[35mRadio Load (0.5ms)[0m  SELECT  "radios".* FROM "radios"  ORDER BY name asc LIMIT 10 OFFSET 0
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/datatables/media/images/sort_asc.png" for 127.0.0.1 at 2015-07-24 17:22:30 +0200

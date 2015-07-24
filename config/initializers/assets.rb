@@ -12,8 +12,10 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( main.css )
 Rails.application.config.assets.precompile += %w( datatables/media/css/jquery.dataTables.css )
 Rails.application.config.assets.precompile += %w( bootstrap/dist/css/bootstrap.css )
+Rails.application.config.assets.precompile += %w( growl/jquery.growl.css )
 
 Rails.application.config.assets.precompile += %w( jquery/dist/jquery.js )
 Rails.application.config.assets.precompile += %w( datatables/media/js/jquery.dataTables.js )
 Rails.application.config.assets.precompile += %w( bootstrap/dist/js/bootstrap.js )
+Rails.application.config.assets.precompile += %w( growl/jquery.growl.js )
 Rails.application.config.assets.precompile += %w( main.js )
