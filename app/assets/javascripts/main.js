@@ -56,7 +56,6 @@ $(document).ready(function(){
 			var editSource=$('#editUrl').val();
 			var urlPatch='http://localhost:3000/radios/' + id;
 			var promise=$.ajax({
-				//type:'POST',
 				type:'PATCH',
 				dataType:"json",
 				url: urlPatch,
@@ -84,12 +83,32 @@ $(document).ready(function(){
 	$('#tabla').on("click",'#deleteBtn',function(e){
 		e.preventDefault();
 		
-		$('#modalDelete').modal('show');
 		var tr=$(this).parents('tr');
 		var row=datatable.row(tr).data();
 		var idDelete=row.id;
 		var nameDelete=row.name;
-
-		
+		$('#modalDelete').modal('show');
+		$('#modalDelete').on('click', '#confirmDelete', function(event){
+			event.preventDefault();
+			console.log('delete radio');
+			
+			console.log('id to delete: ' + idDelete);
+			var promise= $.ajax({
+  				url: 'http://localhost:3000/radios/' + idDelete,
+  				type: 'DELETE'
+			});
+			promise.done(function(){
+  				$.growl.notice({ message: "The station has been removed!" });
+  				console.log('promiseDone');
+			});
+			promise.fail(function(){
+				$.growl.error({ message: "The station has not been removed." });
+				console.log('promiseFail');
+			});
+			promise.always(function(){
+				datatable.draw();
+				console.log('promiseAlways');
+			});
+		});
 	});
 });

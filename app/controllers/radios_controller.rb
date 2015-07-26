@@ -2,9 +2,6 @@ class RadiosController < ApplicationController
   
 #  http_basic_authenticate_with name: "radio", password: "radio", except: [:index, :show]
 
-  #def index
-    #@radios = Radio.all
-  #end
   def index
     respond_to do |format|
       format.html
@@ -47,7 +44,11 @@ class RadiosController < ApplicationController
     @radio = Radio.find(params[:id])
     @radio.destroy
 
-    redirect_to radios_path
+    respond_to do |format|
+      format.html { redirect_to radios_path }
+      format.json { head :no_content }
+      format.js   { render :layout => false }
+    end
   end
 
   private
