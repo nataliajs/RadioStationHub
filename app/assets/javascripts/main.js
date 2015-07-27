@@ -16,17 +16,17 @@ $(document).ready(function(){
 			{
 				"data":"source",
 				"render":function(data){
-					return '<a href="'+data+'" target="_blank" role="button" class="btn btn-warning">Play</a>';
+					return '<a href="'+data+'" target="_blank" role="button" class="btn btn-info btn-size center"><span class="glyphicon glyphicon-play" aria-hidden="true"></span>   Play</a>';
 				}
 			},
 			{
 				"data":"id",
 				"render":function(data){
-					return '<button type="button" class="btn btn-info" id="editBtn">Edit</button><button type="button" class="btn btn-info" id="deleteBtn">Delete</button>';
+					return '<button type="button" class="btn btn-info btn-size" id="editBtn"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>    Edit</button><button type="button" class="btn btn-info btn-size" id="deleteBtn"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span>   Delete</button>';
 				}
 			}
 		]
-	});
+	}); 
 
 
 
@@ -73,9 +73,10 @@ $(document).ready(function(){
 					console.log('promiseFail');
 				});
 			promise.always(function(){
-					datatable.draw();
+					datatable.ajax.reload();
 					console.log('promiseAlways');
 				});
+			
 		});
 	});
 
@@ -106,7 +107,7 @@ $(document).ready(function(){
 				console.log('promiseFail');
 			});
 			promise.always(function(){
-				datatable.draw();
+				datatable.ajax.reload();
 				console.log('promiseAlways');
 			});
 		});
