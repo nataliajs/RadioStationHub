@@ -55,7 +55,7 @@ $(document).ready(function(){
 					console.log('promiseFail');
 				});
 			promise.always(function(){
-					datatable.draw();
+					datatable.ajax.reload();
 					console.log('promiseAlways');
 				});
 		});
@@ -64,7 +64,6 @@ $(document).ready(function(){
 	//show editModal
 	$('#tabla').on("click",'#editBtn',function(e){
 		e.preventDefault();
-		// jrletosa check unused
 		var tr=$(this).parents('tr');
 		var row=datatable.row(tr).data();
 		var id=row.id;
