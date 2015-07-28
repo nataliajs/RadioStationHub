@@ -35,12 +35,36 @@ $(document).ready(function(){
 		e.preventDefault();
 		document.getElementById('addForm').reset();
 		$('#modalAdd').modal('show');
+		$('#modalAdd').on('click', '#addSubmit', function(){
+			var addName=$('#addRadioName').val();
+			var addSource=$('#addRadioUrl').val();
+			var promise= $.ajax({
+				type: 'POST',
+				url: 'http://localhost:3000/radios/',
+				data: {
+					"radio[name]": addName,
+					"radio[source]": addSource
+				}
+			});
+			promise.done(function(){
+  					$.growl.notice({ message: "The station has been added!" });
+  					console.log('promiseDone');
+				});
+			promise.fail(function(){
+					$.growl.error({ message: "The station has not been added." });
+					console.log('promiseFail');
+				});
+			promise.always(function(){
+					datatable.draw();
+					console.log('promiseAlways');
+				});
+		});
 	});
 
 	//show editModal
 	$('#tabla').on("click",'#editBtn',function(e){
 		e.preventDefault();
-
+		// jrletosa check unused
 		var tr=$(this).parents('tr');
 		var row=datatable.row(tr).data();
 		var id=row.id;
@@ -50,7 +74,7 @@ $(document).ready(function(){
 		$('#modalEdit').modal('show');
 		$('#editName').val(name);
 		$('#editUrl').val(url);
-		$('#modalEdit').on('click','#addSubmit',function(){
+		$('#modalEdit').on('click','#editSubmit',function(){
 			console.log('promise');
 			var editName=$('#editName').val();
 			var editSource=$('#editUrl').val();
