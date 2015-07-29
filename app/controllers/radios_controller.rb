@@ -1,6 +1,6 @@
 class RadiosController < ApplicationController
   
-#  http_basic_authenticate_with name: "radio", password: "radio", except: [:index, :show]
+  http_basic_authenticate_with name: "radio", password: "radio", except: [:index, :show]
 
   def index
     respond_to do |format|
