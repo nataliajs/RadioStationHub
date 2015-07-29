@@ -47,8 +47,8 @@ group :development, :test do
 end
 
 #group :assets do
-  gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
-  gem 'jquery-ui-rails', '~> 4.2.1'
+gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
+gem 'jquery-ui-rails', '~> 4.2.1'
 #end
 
 gem 'will_paginate'
