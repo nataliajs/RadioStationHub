@@ -16,13 +16,13 @@ $(document).ready(function(){
 			{
 				"data":"source",
 				"render":function(data){
-					return '<a href="'+data+'" target="_blank" role="button" class="btn btn-info btn-size center"><span class="glyphicon glyphicon-play" aria-hidden="true"></span>   Play</a>';
+					return '<a href="'+data+'" target="_blank" role="button" class="btn btn-info btn-size text-center"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> Play</a>';
 				}
 			},
 			{
 				"data":"id",
 				"render":function(data){
-					return '<button type="button" class="btn btn-info btn-size" id="editBtn"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>    Edit</button><button type="button" class="btn btn-info btn-size" id="deleteBtn"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span>   Delete</button>';
+					return '<button type="button" class="btn btn-info btn-size text-center" id="editBtn"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit</button><button type="button" class="btn btn-info btn-size text-center" id="deleteBtn"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span>   Delete</button>';
 				}
 			}
 		]
@@ -35,7 +35,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		document.getElementById('addForm').reset();
 		$('#modalAdd').modal('show');
-		$('#modalAdd').on('click', '#addSubmit', function(){
+		$('#modalAdd').off('click', '#addSubmit').on('click', '#addSubmit', function(){
 			var addName=$('#addRadioName').val();
 			var addSource=$('#addRadioUrl').val();
 			var promise= $.ajax({
@@ -73,7 +73,7 @@ $(document).ready(function(){
 		$('#modalEdit').modal('show');
 		$('#editName').val(name);
 		$('#editUrl').val(url);
-		$('#modalEdit').on('click','#editSubmit',function(){
+		$('#modalEdit').off('click','#editSubmit').on('click','#editSubmit',function(){
 			console.log('promise');
 			var editName=$('#editName').val();
 			var editSource=$('#editUrl').val();
@@ -112,7 +112,7 @@ $(document).ready(function(){
 		var idDelete=row.id;
 		var nameDelete=row.name;
 		$('#modalDelete').modal('show');
-		$('#modalDelete').on('click', '#confirmDelete', function(event){
+		$('#modalDelete').off('click', '#confirmDelete').on('click', '#confirmDelete', function(event){
 			event.preventDefault();
 			console.log('delete radio');
 			

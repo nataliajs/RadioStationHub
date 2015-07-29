@@ -61,11 +61,7 @@ background-size:16px 16px;*/
 }
 
 thead,tfoot{
-  /*background-color: #182047;*/
   color:#E8E8B2;
-  /*font-family: 'Droid Serif', serif;*/
-  /*font-family: 'Libre Baskerville', serif;*/
-  /*font-family: 'Raleway', sans-serif;*/
   font-family: 'Montserrat', sans-serif;
   background: -webkit-linear-gradient(#1C2444, #0B1644); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#1C2444, #0B1644); /* For Opera 11.1 to 12.0 */
@@ -92,8 +88,9 @@ thead,tfoot{
     margin-right: -50%;
     transform: translate(-50%, -50%) 
   }*/
-/*--------RESPONSIVE BACKGROUND---------------*/
 
+
+/*--------RESPONSIVE BACKGROUND---------------*/
 body{
   background: no-repeat   center center fixed;
   -webkit-background-size: cover;
