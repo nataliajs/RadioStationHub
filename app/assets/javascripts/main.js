@@ -1,4 +1,8 @@
 'use strict';
+
+var devHost= "http://localhost:3000"
+var prodHost= "http://onda-radio.herokuapp.com";
+
 $(document).ready(function(){
 	var datatable=$('#tabla').DataTable({
 		"info":false,
@@ -10,7 +14,7 @@ $(document).ready(function(){
 			"orderable":false,
 			"searchable":false
 		}],
-		"ajax":"http://localhost:3000/radios",
+		"ajax": prodHost + "/radios",
 		"columns":[
 			{"data":"name"},
 			{
@@ -40,7 +44,7 @@ $(document).ready(function(){
 			var addSource=$('#addRadioUrl').val();
 			var promise= $.ajax({
 				type: 'POST',
-				url: 'http://localhost:3000/radios/',
+				url: prodHost + '/radios/',
 				data: {
 					"radio[name]": addName,
 					"radio[source]": addSource
@@ -77,7 +81,7 @@ $(document).ready(function(){
 			console.log('promise');
 			var editName=$('#editName').val();
 			var editSource=$('#editUrl').val();
-			var urlPatch='http://localhost:3000/radios/' + id;
+			var urlPatch= prodHost + '/radios/' + id;
 			var promise=$.ajax({
 				type:'PATCH',
 				dataType:"json",
@@ -118,7 +122,7 @@ $(document).ready(function(){
 			
 			console.log('id to delete: ' + idDelete);
 			var promise= $.ajax({
-  				url: 'http://localhost:3000/radios/' + idDelete,
+  				url: prodHost + '/radios/' + idDelete,
   				type: 'DELETE'
 			});
 			promise.done(function(){
