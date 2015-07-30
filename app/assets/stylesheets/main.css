@@ -1,47 +1,5 @@
 
 
-/*body {
-  background: #fafafa;
-  
-  color: #333;
-
-/*BACKGROUND RADIAL GRADIENT PATTERN*/
-/*background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
-background-size:16px 16px;*/
-/*}
-
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-}
-
-.hero-unit h1 {
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-/*.jumbotron,.table-responsive{
-  background-color: #EDEDED;
-}*/
-
 /*--------------TABLE---------------*/
 
 .table{
@@ -55,12 +13,15 @@ background-size:16px 16px;*/
   background-color: #376191;
   color:#111435;
   font-family: 'Open Sans', sans-serif;
+
 }
 .table-hover > tbody > tr:hover{
   background-color: #518EA1;
 }
 
+
 thead,tfoot{
+   
   color:#E8E8B2;
   font-family: 'Montserrat', sans-serif;
   background: -webkit-linear-gradient(#1C2444, #0B1644); /* For Safari 5.1 to 6.0 */
@@ -68,28 +29,31 @@ thead,tfoot{
   background: -moz-linear-gradient(#1C2444, #0B1644); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#1C2444, #0B1644); /* Standard syntax */
 }
+th,td{
+  padding-left: 20px !important;
+}
 
+td.center{
+  text-align: center !important;
+}
 /*------------BUTTON-------------------------*/
 .btn-size-add{
     width: 120px !important;
 }
 .btn-size {
     width: 80px !important;
-    text-align: center;
-    /*margin: auto !important;
-    width: 40% !important; */
     box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.15);
+    margin-right: 20px;
 }
-/*.center{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-  }*/
-
-
+.btn-info{
+  background: #5593AA;
+}
+.btn-warning{
+  background: #E99F4A;
+}
+.btn-primary{
+  background: #EE934C;
+}
 /*--------RESPONSIVE BACKGROUND---------------*/
 body{
   background: no-repeat   center center fixed;

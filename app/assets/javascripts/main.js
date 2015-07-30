@@ -5,10 +5,13 @@ $(document).ready(function(){
 		"paging":false,
 		"processing":true,
 		"serverSide":false,
+		"responsive":true,
 		"columnDefs":[{
 			"targets":[1,2],
 			"orderable":false,
-			"searchable":false
+			"searchable":false,
+			"width": "30%",
+			"className":"center"
 		}],
 		"ajax":"http://localhost:3000/radios",
 		"columns":[
@@ -16,13 +19,13 @@ $(document).ready(function(){
 			{
 				"data":"source",
 				"render":function(data){
-					return '<a href="'+data+'" target="_blank" role="button" class="btn btn-info btn-size text-center"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> Play</a>';
+					return '<a href="'+data+'" target="_blank" role="button" class="btn btn-primary btn-size"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> Play</a>';
 				}
 			},
 			{
 				"data":"id",
 				"render":function(data){
-					return '<button type="button" class="btn btn-info btn-size text-center" id="editBtn"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit</button><button type="button" class="btn btn-info btn-size text-center" id="deleteBtn"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span>   Delete</button>';
+					return '<button type="button" class="btn btn-info btn-size" id="editBtn"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit</button><button type="button" class="btn btn-info btn-size text-center" id="deleteBtn"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span>   Delete</button>';
 				}
 			}
 		]
