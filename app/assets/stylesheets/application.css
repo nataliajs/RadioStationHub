@@ -12,8 +12,4 @@
  *
  * require_tree .
  *= require_self
- * require bootstrap/dist/css/bootstrap
- * require main
- * require datatables/media/css/jquery.dataTables
- * require datatables/media/css/jquery.dataTables_themeroller
- */
+*/

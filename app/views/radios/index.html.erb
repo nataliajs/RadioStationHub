@@ -75,14 +75,14 @@
 
             <div class="modal-body">
                <!--FORM ADD RADIO-->
-               <form id='addForm'>
+               <form id='addForm' novalidate>
                    <div class='form-group'>
-                       <label for='name'>Name</label>
-                       <input type="text" class="form-conntrol" id='addRadioName' placeholder='Name'>
+                       <label for='addRadioName'>Name</label>
+                       <input type="text" class="form-conntrol" id='addRadioName' name='addRadioName' placeholder='Name'>
                    </div>
                    <div class='form-group'>
-                       <label for='url'>Source</label>
-                       <input type="url" class="form-conntrol" id='addRadioUrl' placeholder='Url'>
+                       <label for='addRadioUrl'>Source</label>
+                       <input type="url" class="form-conntrol" id='addRadioUrl' name='addRadioUrl' placeholder='Url'>
                    </div>
                    
                </form>
@@ -163,7 +163,7 @@
     <%= javascript_include_tag "datatables/media/js/jquery.dataTables" %>
     <%= javascript_include_tag "bootstrap/dist/js/bootstrap" %>
     <%= javascript_include_tag "growl/jquery.growl" %>
-
+    <%= javascript_include_tag "jquery.validate.min" %>
     <%= javascript_include_tag "main" %>
 </body>
 </html>
