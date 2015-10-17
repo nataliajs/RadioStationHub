@@ -1,8 +1,5 @@
 'use strict';
 
-var devHost= "http://localhost:3000"
-var prodHost= "http://onda-radio.herokuapp.com";
-
 $(document).ready(function(){
 	var datatable=$('#tabla').DataTable({
 		"info":false,
@@ -17,7 +14,7 @@ $(document).ready(function(){
 			"width": "30%",
 			"className":"center"
 		}],
-		"ajax": devHost + "/radios",
+		"ajax": "/radios",
 		"columns":[
 			{"data":"name"},
 			{
@@ -55,16 +52,27 @@ $(document).ready(function(){
 		document.getElementById('addForm').reset();
 		$('#modalAdd').modal('show');
 		$('#modalAdd').off('click', '#addSubmit').on('click', '#addSubmit', function(){
-			if(validacionAdd.form()){
-				var addName=$('#addRadioName').val();
-				var addSource=$('#addRadioUrl').val();
-				var promise= $.ajax({
-					type: 'POST',
-					url: devHost + '/radios/',
-					data: {
-						"radio[name]": addName,
-						"radio[source]": addSource
-					}
+			var addName=$('#addRadioName').val();
+			var addSource=$('#addRadioUrl').val();
+			var promise= $.ajax({
+				type: 'POST',
+				url: "/radios/",
+				data: {
+					"radio[name]": addName,
+					"radio[source]": addSource
+				}
+			});
+			promise.done(function(){
+  					$.growl.notice({ message: "The station has been added!" });
+  					console.log('promiseDone');
+				});
+			promise.fail(function(){
+					$.growl.error({ message: "The station has not been added." });
+					console.log('promiseFail');
+				});
+			promise.always(function(){
+					datatable.ajax.reload();
+					console.log('promiseAlways');
 				});
 				promise.done(function(){
 	  					$.growl.notice({ message: "The station has been added!" });
@@ -100,7 +108,7 @@ $(document).ready(function(){
 			console.log('promise');
 			var editName=$('#editName').val();
 			var editSource=$('#editUrl').val();
-			var urlPatch= devHost + '/radios/' + id;
+			var urlPatch= "/radios/" + id;
 			var promise=$.ajax({
 				type:'PATCH',
 				dataType:"json",
@@ -141,7 +149,7 @@ $(document).ready(function(){
 			
 			console.log('id to delete: ' + idDelete);
 			var promise= $.ajax({
-  				url: devHost + '/radios/' + idDelete,
+  				url: "/radios/" + idDelete,
   				type: 'DELETE'
 			});
 			promise.done(function(){
